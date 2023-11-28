@@ -33,18 +33,19 @@ nav {
     display: flex;
     color: #FFA500;
     margin: none;
-    /* padding-top: 4rem; */
     flex-direction: column;
-    padding-left: none;
     text-align: center;
     position: absolute;
     background-color: #cccc;
-    width: 95.5%;
+    width: auto;
     margin-top: 60px;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    justify-items: flex-end;
+
 }
 .list_item {
-    margin: 1rem;
-    margin-top: 0;
+    margin-top: 1rem;
     font-size: 1.5rem;
     /* padding-top: 2rem; */
 }
