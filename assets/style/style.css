@@ -1,0 +1,21 @@
+/* body */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+body {
+    margin: auto 0;
+}
+
+/* navigation */
+.logo {
+    width: 200px;
+    display: flex;
+}
+
+nav {
+    background-color: #cccc;
+    list-style:  none;
+    display: flex;
+}
