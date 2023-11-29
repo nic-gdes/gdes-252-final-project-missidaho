@@ -7,6 +7,26 @@ img {
 body {
     margin: auto 0;
 }
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFA500;
+}
+p,
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333333;
+}
+
+.outside_margin {
+    margin: 1rem;
+}
+
+.subtitle_pics {
+    width: auto;
+    height: 200px;
+}
+
 
 /* navigation */
 .logo {
@@ -21,27 +41,35 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    background-color: #cccc;
+    background-color: white;
 
 }
 /* nav items */
 
+.list {
+    display: none;
+    background-color: #ccc ;
+    padding-bottom: 20px;
+    
+}
 
+.list_item:hover {
+    color: #FFA500;
+}
 
 .list.active {
     list-style: none;
     display: flex;
-    color: #FFA500;
+    color: #333333;
     margin: none;
     flex-direction: column;
     text-align: center;
     position: absolute;
-    background-color: #cccc;
+    right: 0;
+    left: 0;
     width: auto;
     margin-top: 60px;
-    justify-content: flex-end;
-    justify-self: flex-end;
-    justify-items: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .list_item {
@@ -50,9 +78,7 @@ nav {
     /* padding-top: 2rem; */
 }
 
-.list {
-    display: none;
-}
+
 /* hamburger */
 
 button {
@@ -84,3 +110,34 @@ span {
     height: 4px;
     margin: .75rem;
 }
+
+/* 1st info */
+
+
+
+
+/* ---FOOTER--- */
+.footer_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-bottom: none;
+
+}
+
+footer {
+    background-color: #ccc;
+    margin: none;
+    padding: none;
+}
+
+/* ----MEDIA QUERIES----- */
+@media screen and (min-width:377) {
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
