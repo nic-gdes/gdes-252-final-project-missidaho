@@ -150,6 +150,11 @@ span {
         transform:rotate(360deg);
     }
 }
+.homepage_animation {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 
 
 /* ---FOOTER--- */
@@ -182,12 +187,7 @@ footer {
 }
 
 /* ----MEDIA QUERIES----- */
-@media screen and (max-width: 599px) {
-    .animation1,
-    .animation2 {
-        display: none;
-    }
-}
+
 @media screen and (min-width: 600px) {
   .wrapper {
     display: grid;
@@ -222,7 +222,6 @@ footer {
     grid-column: 1/3;
     grid-template-rows: 1fr;
     gap: 1rem;
-    grid-template-rows: 50% 50%;
   }
   .fitcontent {
     grid-column: 2/3;
@@ -233,14 +232,13 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 1/3;
-    grid-template-rows: 1fr;
     gap: 1rem;
   }
   .Services_pic {
     grid-column: 2/3;
   }
   .Services_info {
-    grid-row: 1/3;
+    grid-row: 1/2;
   }
   .animation1 {
     grid-column: 1/2;
