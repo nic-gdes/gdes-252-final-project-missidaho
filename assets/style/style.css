@@ -325,3 +325,8 @@ footer {
     width: 90%;
   }
 }
+
+/* ------------Calculation Page--------------- */
+.Calculation_wrapper {
+  margin: 1rem;
+}
