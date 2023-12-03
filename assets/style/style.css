@@ -192,20 +192,20 @@ footer {
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: auto;
   }
 
   .About_us {
     grid-row: 2/3;
   }
 
-  .fitcontent {
+  /* .fitcontent {
     grid-row: 1/2;
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
+  } */
   .our_approach {
     grid-row: 2/3;
   }
@@ -215,31 +215,31 @@ footer {
   .Contact_us {
     grid-row: 3/4;
   }
-  .Welcome {
+  /* .Welcome {
     grid-row: 1/2;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 1/3;
     grid-template-rows: 1fr;
     gap: 1rem;
-  }
+  } */
   .fitcontent {
     grid-column: 2/3;
     grid-row: 1/3;
   }
-  .Services {
+  /* .Services {
     grid-row: 4/5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column: 1/3;
     gap: 1rem;
-  }
-  .Services_pic {
+  } */
+  /* .Services_pic {
     grid-column: 2/3;
-  }
-  .Services_info {
+  } */
+  /* .Services_info {
     grid-row: 1/2;
-  }
+  } */
   .animation1 {
     grid-column: 1/2;
     grid-row: 2/3;
@@ -257,6 +257,7 @@ footer {
     grid-column: 1/5;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
   }
 
   .fitcontent {
@@ -270,12 +271,10 @@ footer {
   }
 
   .Services {
-    grid-row: 4/5;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     grid-column: 1/5;
-    grid-template-rows: 1fr;
     gap: 1rem;
+    flex-direction: row-reverse;
   }
 }
 
@@ -283,7 +282,7 @@ footer {
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-rows: auto;
   }
   .our_approach {
     grid-row: 2/3;
@@ -374,5 +373,6 @@ footer {
   .Input_number {
     margin-top: 0px;
   }
+ 
 
 }
