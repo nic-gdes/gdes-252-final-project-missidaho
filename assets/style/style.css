@@ -330,3 +330,20 @@ footer {
 .Calculation_wrapper {
   margin: 1rem;
 }
+
+.Calculator_button {
+  border: #ffa500 5px solid;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.Calculator_button_wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.picture3_on_Calculator_page {
+  margin-top: 1rem;
+}
