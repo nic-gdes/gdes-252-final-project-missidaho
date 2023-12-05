@@ -24,11 +24,7 @@ li {
   position: relative;
   
 } */
-.dark_mode {
-  position: absolute;
-  top: 10%;
-  left: 10px;
-}
+
 
 
 .outside_margin {
@@ -151,6 +147,10 @@ span {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    background-color: white;
+    height: 50px;
+    border-radius: 50%;
+    min-height: 100px;
     
 }
 @keyframes anime1 {
@@ -387,4 +387,17 @@ footer {
   }
  
 
+}
+
+/* ----dark mode----- */
+.dark_mode_button {
+  position: absolute;
+  top: 10%;
+  left: 10px;
+}
+.dark_mode {
+  background-color: #333333;
+}
+.dark_mode_text {
+  color: white;
 }
