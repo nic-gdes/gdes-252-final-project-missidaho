@@ -27,14 +27,9 @@ const button = document.querySelector('.dark_mode_button')
 // create an event listener that says when the button is clicked it toggles a class
 
 button.addEventListener('click', function() {
-    const mode = document.querySelectorAll('.dark_mode')
-    mode.classList.toggle('.dark_mode')
-    
-}
-    
-    
-)
-
+    const mode = document.querySelector('.default')
+    mode.classList.toggle('dark_mode')
+})
 
     // ---modal----
 
