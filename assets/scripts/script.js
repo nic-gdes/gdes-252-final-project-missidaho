@@ -58,3 +58,36 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+// ---------CALCULATOR------------
+
+function convert() {
+    // fetch the value from the input
+    const fahrenhiet = parseInt(document.getElementById("fahrenhiet").value
+    );
+    // convert
+    const celsius = (fahrenhiet - 32) * 0.5556;
+    console.log(celsius);
+    // display number
+    document.getElementById("celsius").innerText = celsius;
+  }
+
+  function feetconvert() {
+    // fetch the value from the input
+    const feet = parseInt(document.getElementById("feet").value
+    );
+    // convert
+    const miles = (feet* 0.0001894);
+    // display number
+    document.getElementById("miles").innerText = miles;
+  }
+
+  function cmconvert() {
+    // fetch the value from the input
+    const feet = parseInt(document.getElementById("inches").value
+    );
+    // convert
+    const cm = (feet*2.54);
+    // display number
+    document.getElementById("cm").innerText = cm;
+  }

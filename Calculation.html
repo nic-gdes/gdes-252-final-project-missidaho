@@ -26,14 +26,14 @@
         </li>
       </ul>
       <button class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span class="menu_span"></span>
+        <span class="menu_span"></span>
+        <span class="menu_span"></span>
       </button>
     </nav>
 
     <!-- HERO -->
-    <div class="dark_mode">
+    <div class="default dark_mode">
       <div>
         <img
           src="./assets/images/man-doing-finance-paperwork-with-calculator.jpg.webp"
@@ -98,21 +98,20 @@
         </div>
 
         <div class="Calculator_button_wrapper">
-          <div class="Calculator_button Input_number">
-            <p>Input Number</p>
-          </div>
-          <div class="Calculator_button">
-            <p>Fahrenheit to Celsius</p>
-          </div>
-          <div class="Calculator_button">
-            <p>Feet to Miles</p>
-          </div>
-          <div class="Calculator_button">
-            <p>Inches to Centimeters</p>
-          </div>
-          <div class="Calculator_button">
-            <p>Output</p>
-          </div>
+          
+          
+          <input id="fahrenhiet" placeholder="Fahrenheit to Celsius" />
+          <p class="Calculator_button"  onclick="convert ()">Convert</p>
+          <p id="celsius"></p>
+          
+          <input id="feet" placeholder="Feet to Miles" />
+          <p  class="Calculator_button" onclick="feetconvert ()">Convert</p>
+          <p id="miles"></p>
+
+          <input id="inches" placeholder="Inches to Centimeters" />
+          <p  class="Calculator_button" onclick="cmconvert ()">Convert</p>
+          <p id="cm"></p>
+          
         </div>
         <div class="picture2_on_Calculator_page">
           <img src="./assets/images/empire-blog-happy-employees.png" />
