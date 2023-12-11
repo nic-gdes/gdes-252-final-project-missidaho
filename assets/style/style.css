@@ -15,7 +15,8 @@ h3
   color: #ffa500;
 }
 p,
-li {
+li,
+.banner {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #333333;
 }
